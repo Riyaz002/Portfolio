@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    background-image: url(./images/background.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+html, body{
+    height: 100%;
+}
+
+#header{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height:50px;
+    width: 100vw;
+    background-color: white;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+#header > img{
+    width: auto;
+    padding-left: 20px;
+    height:100%;
+    display:block;
+
+}
+#header > h1{
+    margin-left: 10px;
+    color: rgb(0, 26, 74);
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+
+}
+nav ul{
+    display: flex;
+    margin-right: 20px;
+}
+
+nav > ul > li{
+    list-style: none;
+    flex-direction: row;
+    margin-left: 30px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5%;
+    color: rgb(0, 26, 74);
+    font-weight: 600;
+    background-color: rgb(212, 241, 236);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2),;
+}
+
+nav > ul > li:hover{
+    box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+#introduction > div{
+    position: relative;
+    padding-top: 20%;
+    padding-left: 10%;
+    font-size: large;
+    z-index: -1;
+}
+
+.para{
+    margin-top: 10px;
+    min-width: 200px;
+    width: 400px;
+    line-height: 1.5rem;
+}
+
+.bold{
+    font-weight: 900;
+}
+
+.et-large{
+    font-size: xx-large;
+}
