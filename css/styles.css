@@ -34,8 +34,14 @@ body {
 }
 
 .header-logo {
+  height: 100%;
+  width: 100%;
+}
+
+.logo-container {
+  margin: 0.5rem 0 0.5rem 2rem;
   height: 40px;
-  margin: 0.5rem 2rem;
+  width: 40px;
 }
 
 nav ul {
