@@ -1,2 +1,1 @@
-# Folio
-## codebase to my portfolio.
+#codebase to my portfolio.
